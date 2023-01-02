@@ -11,7 +11,11 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <div className="w-[100vw] h-[100vh] flex items-center justify-center">
-        <Link href="/login">
+        <Link
+          href={
+            'https://www.facebook.com/v15.0/dialog/oauth?client_id=482223187415893&redirect_uri="https://instagram-web-green.vercel.app/"&state="bismvrckz"'
+          }
+        >
           <button>Sign in with facebook</button>
         </Link>
       </div>
